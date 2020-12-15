@@ -1,0 +1,86 @@
+.teksten {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 500px;
+}
+
+@media only screen and (min-width: 1024px) {
+  /*Eeyore's klaaghoekje*/
+
+  .box1 {
+    width: 400px;
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: bolder;
+    margin-left: 250px;
+  }
+
+  .box2 {
+    width: 550px;
+    font-size: 2em;
+    font-style: italic;
+    margin-left: 350px;
+  }
+
+  .staart {
+    margin-left: 20px;
+  }
+
+  .box3 {
+    width: 300px;
+    font-size: 2em;
+    text-shadow: 4px 4px 6px #aaa, 6px 6px 3px #777;
+    margin-left: 550px;
+  }
+
+  .box4 {
+    width: 180px;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-left: 400px;
+  }
+
+  .regen {
+    margin-left: 600px;
+  }
+
+  .box5 {
+    width: 350px;
+    font-size: 2em;
+    font-family: "Nerko One", cursive, sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px #aaa, 4px 4px 1px #777;
+  }
+
+  .box6 {
+    font-size: 2em;
+    width: 400px;
+    font-family: "Sansita Swashed", cursive;
+    margin-left: 500px;
+  }
+
+  .knuffel {
+    margin-left: 100px;
+  }
+
+  .box7 {
+    font-size: 2em;
+    font-family: "Sansita Swashed", cursive;
+    width: 300px;
+    margin-left: 700px;
+  }
+
+  .box8 {
+    font-size: 2em;
+    font-family: "Yellowtail", cursive;
+    width: 150px;
+    margin-left: 250px;
+  }
+
+  .bedankt {
+    margin-left: 450px;
+  }
+}
